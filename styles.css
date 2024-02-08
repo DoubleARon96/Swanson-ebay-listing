@@ -1,1 +1,26 @@
+/***********************************************************************General css*/
+* {
+  font-family: "Bebas Neue", Sans-Serif;
+  font-size: large;
+}
+body{
+  background-image: url('https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/0rkAAOSwfn5lxPwT/$_57.JPG?set_id=880000500F') ;
+}
 
+
+/***********************************************************************Top Banner*/
+.bg-header {
+  background-color: #fd7e14; 
+}
+
+/***********************************************************************Main Product Image*/
+.main-product-image {
+  width: 40%;
+}
+
+/***********************************************************************Main content*/
+.link-bg, 
+.list-group-item-bg {
+  background-color: rgb(255, 255, 255)!important;
+  color: rgba(248, 142, 56, 1)!important;
+}
