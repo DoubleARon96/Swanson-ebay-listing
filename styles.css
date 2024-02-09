@@ -19,6 +19,11 @@
 }
 
 /***********************************************************************Main content*/
+.li-colour{
+ list-style-type: none;
+ color: black;
+ padding: 0;
+}
 .link-bg, 
 .list-group-item-bg {
   background-color: rgb(255, 255, 255)!important;
