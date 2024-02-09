@@ -3,7 +3,7 @@
   font-family: "Bebas Neue", Sans-Serif;
   font-size: large;
 }
-body{
+.main-bg{
   background-image: url('https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/0rkAAOSwfn5lxPwT/$_57.JPG?set_id=880000500F') ;
 }
 
@@ -22,5 +22,16 @@ body{
 .link-bg, 
 .list-group-item-bg {
   background-color: rgb(255, 255, 255)!important;
-  color: rgba(248, 142, 56, 1)!important;
+  color: rgba(248, 142, 56, 1);
+}
+.link-bg>p{
+  color: black !important;
+}
+
+.full-description {
+  border-radius: 12px;
+  
+}
+.full-description>p{
+  color: black;
 }
